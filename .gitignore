@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/JWT_EXPRESS_SERVER/node_modules
+/JWT_EXPRESS_SERVER/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/JWT_EXPRESS_SERVER/coverage
+/jwt-react-client/coverage
+
+# production
+/JWT_EXPRESS_SERVER/build
+/jwt-react-client/build
+
+# misc
+.DS_Store
+/JWT_EXPRESS_SERVER/.env.local
+/jwt-react-client/.env.local
+/JWT_EXPRESS_SERVER/.env.development.local
+/jwt-react-client/.env.development.local
+/JWT_EXPRESS_SERVER/.env.test.local
+/jwt-react-client/.env.test.local
+/JWT_EXPRESS_SERVER/.env.production.local
+/jwt-react-client/.env.production.local
+/JWT_EXPRESS_SERVER/config.env
+/jwt-react-client/.env
+
+/JWT_EXPRESS_SERVER/npm-debug.log*
+/jwt-react-client/npm-debug.log*
+/JWT_EXPRESS_SERVER/yarn-debug.log*
+/jwt-react-client/yarn-debug.log*
+/JWT_EXPRESS_SERVER/yarn-error.log*
+/jwt-react-client/yarn-error.log*
